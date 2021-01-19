@@ -2,5 +2,15 @@
 
 fetch("data.json")
 .then(response => response.json())
-.then(data => console.log(data));
+.then(data => {
+
+
+    data.projects.forEach(element => {
+
+        console.log(element)
+        
+    });
+
+
+});
 
