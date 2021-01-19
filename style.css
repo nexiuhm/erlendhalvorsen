@@ -1,0 +1,143 @@
+html, body {
+  background: url(https://i.imgur.com/QhzthIG.jpg);
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  animation: zoom 15s ease-in-out;
+}
+
+
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+  0%, 29% {
+    color: #ec83e6;
+    stroke: #ec83e6;
+    
+  }
+  29%, 35% {
+    
+    color: #8278f1;
+    stroke: #8278f1;
+  }
+  
+  35%, 39% {
+    color: #f0fcc8;
+    stroke: #f0fcc8;
+  }
+  
+  
+  39%, 44% {
+    
+    color: #ec83e6;
+    stroke: #ec83e6;
+  }
+  
+  44%, 50% {
+    
+    color: #f0fcc8;
+    stroke: #f0fcc8;
+  }
+  
+  50%, 60% {
+    
+    color: #8278f1;
+    stroke: #8278f1;
+  }
+  60%, 100% {
+    
+    color: #ec83e6;
+    stroke: #ec83e6;
+  }
+}
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+	  margin: 0 auto;
+  width: 320px; 
+ 
+  height: 60px;
+
+}
+.shape {
+  stroke-dasharray: 40 330;
+  stroke-dashoffset: -1474;
+  stroke-width: 2px;
+  fill:transparent;
+  stroke: #cd98fa;
+  
+  transition: stroke-width 1500ms ease-in-out, stroke-dashoffset 1500ms ease-in-out, stroke-dasharray 1500ms ease-in-out;
+}
+.text {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 13px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #cd98fa;
+  top: -48px;
+  left: 5px;
+  position: relative;
+   -webkit-animation: float 17s infinite; 
+}
+.end {
+  display: inline-block;
+   -webkit-animation: float 13s infinite; 
+
+}
+
+.yada {
+    display: inline-block;
+   -webkit-animation: float 13s infinite; 
+}
+.vors {
+  display: inline-block;
+   -webkit-animation: float 15s infinite; 
+}
+
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-8px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+@keyframes zoom {
+	0% {
+		
+		transform: scale(1.1,1.1);
+	}
+	50% {
+		
+		transform: scale(1,1);
+	}
+	100% {
+		
+		transform: transform: scale(1.1,1.1);
+	}
+}
+.svg-wrapper:hover .shape {
+  stroke-width: 2px;
+  stroke-dashoffset: 10;
+  stroke-dasharray: 760;
+   -webkit-animation: NAME-YOUR-ANIMATION 12s infinite;  /* Safari 4+ */
+  -moz-animation: NAME-YOUR-ANIMATION 12s infinite;  /* Fx 5+ */
+  -o-animation: NAME-YOUR-ANIMATION 12s infinite;  /* Opera 12+ */
+  animation: NAME-YOUR-ANIMATION 12s infinite;  /* IE 10+, Fx 29+ */
+}
+
+.infotxt{
+  color: white;
+  opacity: 0.8;
+  font-family: 'Ropa Sans', sans-serif;
+  letter-spacing: 2px;
+  
+}
