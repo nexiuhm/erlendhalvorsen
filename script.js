@@ -1,3 +1,6 @@
-const projects = await fetch("data.json");
 
-console.log(projects);
+
+fetch("data.json")
+.then(response => response.json())
+.then(data => console.log(data));
+
