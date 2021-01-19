@@ -9,7 +9,7 @@ html, body {
 
 
 
-@-webkit-keyframes NAME-YOUR-ANIMATION {
+@keyframes NAME-YOUR-ANIMATION {
   0%, 29% {
     color: #ec83e6;
     stroke: #ec83e6;
@@ -78,21 +78,21 @@ html, body {
   top: -48px;
   left: 5px;
   position: relative;
-   -webkit-animation: float 17s infinite; 
+  animation: float 17s infinite; 
 }
 .end {
   display: inline-block;
-   -webkit-animation: float 13s infinite; 
+   animation: float 13s infinite; 
 
 }
 
 .yada {
-    display: inline-block;
-   -webkit-animation: float 13s infinite; 
+   display: inline-block;
+   animation: float 13s infinite; 
 }
 .vors {
-  display: inline-block;
-   -webkit-animation: float 15s infinite; 
+   display: inline-block;
+   animation: float 15s infinite; 
 }
 
 
