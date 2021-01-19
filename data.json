@@ -1,0 +1,47 @@
+{
+
+
+
+
+
+    "projects": [
+
+        {
+            "name": "Nettleser spill/simulator",
+            "description": "Basert på det populære online spillet - World Of Warcraft. Simulerer healingrollen i nettleseren",
+            "image": "/img/healgame.jpg",
+            "video": "",
+            "tags": ["JavaScript","HTML","CSS","Phaser","Programming"]
+
+        },
+
+        {
+            "name": "DNB konsept-app",
+            "description": "",
+            "image": "",
+            "video": "",
+            "tags": ["Java","Swift","Programming"]
+
+        },
+
+        {
+            "name": "Fotoalbum",
+            "description": "",
+            "image": "",
+            "video": "",
+            "tags": ["Photoshop","InDesign","Design"]
+
+        },
+
+        {
+            "name": "Jurrasic Park - Park Manager app",
+            "description": "",
+            "image": "",
+            "video": "",
+            "tags": ["Java","Swift","Programming"]
+
+        }
+
+
+    ]
+}
