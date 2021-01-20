@@ -16,8 +16,8 @@ html, body {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  width: 50%;
+  margin: 115 auto;
+  width: 1200px;
   padding: 25px;
   color: white;
 }
@@ -25,11 +25,12 @@ html, body {
 /* Project element */ 
 
 .project {
-  padding: 10px;
+  padding: 20px;
   margin: 15px;
-  margin-top: 115px;
+  flex: auto;
+  /* margin-top: 115px; */
   min-width: 280px;
-  border: 1px solid ghostwhite;
+  border: 1px solid #8a8389;
   border-radius: 5px;
 }
 
