@@ -25,8 +25,8 @@ function renderProjects(projects) {
 
         const project = createProjectElement();
 
-        project.children.header.innerText = element.name;
-        project.children.description.innerText = element.description;
+        project.querySelector("h2").innerText = element.name;
+        project.querySelector("p").innerText = element.description;
         
         projects_container.appendChild(container);
         
