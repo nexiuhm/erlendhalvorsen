@@ -7,13 +7,22 @@ html, body {
   animation: zoom 15s ease-in-out;
   font-family: 'Ropa Sans', sans-serif;
 }
-
+/* Project container */
 .projects {
   display: flex;
   margin: 0 auto;
   width: 65%;
   padding: 50px;
   color: white;
+}
+
+/* Project element */ 
+
+.project {
+  padding: 25px;
+  width: 350px;
+  border: 1px solid ghostwhite;
+  border-radius: 1em;
 }
 
 @keyframes NAME-YOUR-ANIMATION {
