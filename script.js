@@ -23,18 +23,28 @@ function renderProjects(projects) {
     projects.forEach(element => {
 
 
-        const container = document.createElement("div");
-        const header = document.createElement("h2");
-        const img = document.createElement("img");
-        
+        const project = createProjectElement();
 
-        header.innerText = element.name;
+        project.children.header.innerText = element.name;
+        project.children.description.innerText = element.description;
         
-        container.appendChild(header);
-        container.appendChild(img);
         projects_container.appendChild(container);
         
     });
 
 }
 
+
+function createProjectElement() {
+
+    const container = document.createElement("div");
+    const header = document.createElement("h2");
+    const description = document.createElement("p");
+    const img = document.createElement("img");
+
+    container.appendChild(header);
+    container.appendChild(img);
+    container.appendChild(description);
+
+    return container;
+}
