@@ -24,7 +24,6 @@ function renderProjects(projects) {
 
 
         const project = createProjectElement();
-        project.style ="padding: 15px;"
         project.querySelector("h2").innerText = element.name;
         project.querySelector("p").innerText = element.description;
         project.querySelector("div").innerText = "Tags: " + element.tags;
@@ -34,11 +33,13 @@ function renderProjects(projects) {
 
 }
 
+function onClickFilterByTag ()
+
 
 function createProjectElement() {
 
     const container = document.createElement("div");
-
+    container.className = "project";
     const header = document.createElement("h2");
     const description = document.createElement("p");
     const img = document.createElement("img");
