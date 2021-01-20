@@ -11,7 +11,7 @@ fetch("data.json")
 });
 
 
-renderProjects(projects) {
+function renderProjects(projects) {
 
 
     const projects_container= document.getElementByClassName("projects");
