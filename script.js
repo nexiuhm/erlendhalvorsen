@@ -27,7 +27,7 @@ function renderProjects(projects) {
         project.style ="display:flex;"
         project.querySelector("h2").innerText = element.name;
         project.querySelector("p").innerText = element.description;
-        project.querySelector("tags").innerText = "Tags: " + element.tags;
+        project.querySelector("div").innerText = "Tags: " + element.tags;
         projects_container.appendChild(project);
         
     });
