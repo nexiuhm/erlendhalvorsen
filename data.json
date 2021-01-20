@@ -40,6 +40,42 @@
             "video": "",
             "tags": ["Java","Swift","Programming"]
 
+        },
+
+        {
+            "name": "Yogafrisk - Profilering",
+            "description": "Laget visittkort, flyers osvosv brlalblablabl. SAsdas",
+            "image": "",
+            "video": "",
+            "tags": ["Wordpress","Photoshop","Design"]
+
+        },
+
+        {
+            "name": "Playstation 5",
+            "description": "haCKA ALLE ",
+            "image": "",
+            "video": "",
+            "tags": ["Wordpress","Photoshop","Design"]
+
+        },
+
+        {
+            "name": "Duelist WORLD OF WARCRAFT",
+            "description": "2.1 XP resto SHM ",
+            "image": "",
+            "video": "",
+            "tags": ["Wordpress","Photoshop","Design"]
+
+        }
+
+        {
+            "name": "TooGoodToGo auto-buyer",
+            "description": "Reversed engineered the andriod .apk, to find the API/Http requests needed to buy food the instant it became available",
+            "image": "",
+            "video": "",
+            "tags": ["Wordpress","Photoshop","Design"]
+
         }
 
 
