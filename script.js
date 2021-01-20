@@ -14,7 +14,7 @@ fetch("data.json")
 function renderProjects(projects) {
 
 
-    const projects_container= document.getElementByClassName("projects");
+    const projects_container= document.querySelector(".projects");
     projects_container.innerHTML = "";
     
 
