@@ -24,7 +24,7 @@ function renderProjects(projects) {
 
 
         const project = createProjectElement();
-        project.style ="display:flex;"
+        project.style ="padding: 15px;"
         project.querySelector("h2").innerText = element.name;
         project.querySelector("p").innerText = element.description;
         project.querySelector("div").innerText = "Tags: " + element.tags;

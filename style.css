@@ -7,7 +7,9 @@ html, body {
   animation: zoom 15s ease-in-out;
 }
 
-
+.projects {
+  display: flex;
+}
 
 @keyframes NAME-YOUR-ANIMATION {
   0%, 29% {
