@@ -5,6 +5,7 @@ html, body {
   overflow: hidden;
   background-size: cover;
   animation: zoom 15s ease-in-out;
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 .projects {
