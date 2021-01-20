@@ -1,4 +1,10 @@
 html, body {
+
+  margin-top: 100px;
+  
+}
+
+html {
   background: url(https://i.imgur.com/QhzthIG.jpg);
   text-align: center;
   height: 100%;
@@ -23,6 +29,7 @@ html, body {
   padding: 25px;
   margin: 15px;
   min-width: 280px;
+  max-width: 280px;
   border: 1px solid ghostwhite;
   border-radius: 1em;
 }
@@ -70,11 +77,10 @@ html, body {
 }
 .svg-wrapper {
   position: relative;
-  top: 50%;
+  
   transform: translateY(-50%);
-	  margin: 0 auto;
+	margin: 0 auto;
   width: 320px; 
- 
   height: 60px;
 
 }
