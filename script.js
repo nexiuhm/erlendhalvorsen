@@ -1,4 +1,4 @@
-
+/* All data stored in a local json file, so its easier to implement a remote backend later */
 
 fetch("data.json")
 .then(response => response.json())
@@ -15,6 +15,7 @@ function renderProjects(projects) {
 
 
     const projects_container= document.querySelector(".projects");
+    /* Empty container everytime for a clean re-render */
     projects_container.innerHTML = "";
     
 
@@ -33,9 +34,10 @@ function renderProjects(projects) {
 
 }
 
-function onClickFilterByTag ()
+/* Filter click handlers - todo */
+function onClickFilterByTag () {}
 
-
+/* Creates the HTML structure for a single prosject "card" */
 function createProjectElement() {
 
     const container = document.createElement("div");
