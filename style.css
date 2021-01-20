@@ -71,6 +71,14 @@ html, body {
   
   transition: stroke-width 1500ms ease-in-out, stroke-dashoffset 1500ms ease-in-out, stroke-dasharray 1500ms ease-in-out;
 }
+
+p {
+  font-family: 'Ropa Sans', sans-serif;
+}
+
+h2{
+  font-family: 'Ropa Sans', sans-serif;
+}
 .text {
   font-family: 'Ropa Sans', sans-serif;
   font-size: 13px;
