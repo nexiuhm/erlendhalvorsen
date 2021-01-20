@@ -30,9 +30,9 @@ function renderProjects(projects) {
 
         header.innerText = element.name;
         
-        container.addChild(header);
-        container.addChild(img);
-        projects_container.addChild(container);
+        container.appendChild(header);
+        container.appendChild(img);
+        projects_container.appendChild(container);
         
     });
 
