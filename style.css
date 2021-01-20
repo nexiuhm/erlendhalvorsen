@@ -10,6 +10,9 @@ html, body {
 
 .projects {
   display: flex;
+  margin: 0 auto;
+  width: 65%;
+  padding: 50px;
 }
 
 @keyframes NAME-YOUR-ANIMATION {
