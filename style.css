@@ -16,7 +16,7 @@ html, body {
 .projects {
   display: flex;
   flex-wrap: wrap;
-  margin: 115 auto;
+  margin: 115px auto;
   width: 1200px;
   padding: 25px;
   color: white;
@@ -31,7 +31,11 @@ html, body {
   /* margin-top: 115px; */
   min-width: 280px;
   border: 1px solid #8a8389;
-  border-radius: 5px;
+  border-radius: 12px;
+}
+
+.project:hover {
+  background: #97759152;
 }
 
 @keyframes NAME-YOUR-ANIMATION {
