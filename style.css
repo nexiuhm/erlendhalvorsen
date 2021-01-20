@@ -26,11 +26,11 @@ html, body {
 
 .project {
   padding: 25px;
+  margin: 25px;
   margin-top: 115px;
   min-width: 280px;
-  max-width: 280px;
   border: 1px solid ghostwhite;
-  border-radius: 1em;
+  border-radius: 5px;
 }
 
 @keyframes NAME-YOUR-ANIMATION {
