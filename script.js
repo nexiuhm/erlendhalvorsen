@@ -3,7 +3,7 @@
 
 
    
-    const projects = null;
+    let projects = null;
 
 
 
