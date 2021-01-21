@@ -11,70 +11,98 @@
             "description": "Basert på det populære online spillet - World Of Warcraft. Simulerer healingrollen i nettleseren",
             "image": "/img/healgame.jpg",
             "video": "",
-            "tags": ["JavaScript","HTML","CSS","Phaser","Programming"]
+            "tags": ["JavaScript","HTML","CSS","Phaser","Programming"],
+            "demo": "",
+            "github": "https://github.com/nexiuhm/HealingSim-ES6"
+        },
+
+        {
+            "name": "Jurrasic Park - Park Manager app",
+            "description": "Hobbyprosjekt for å bli mer kjent med Java, og tenkte at GUI programmering med JavaFX var en spennende måte å gjøre det på. ",
+            "image": "/img/jpark.jpg",
+            "video": "https://drive.google.com/file/d/19AgSFu7z589o0U2qrHT3IHpK4TBxbME1/view?usp=sharing",
+            "tags": ["Java","JavaFX","Programming"],
+            "demo": "",
+            "github": "https://github.com/nexiuhm/ParkManager"
 
         },
 
         {
             "name": "DNB konsept-app",
-            "description": "For å bli mer kjent med Java. GUI programming med Java/Swift",
-            "image": "",
+            "description": "En Windows skrivebord app som fungerer som en minimal-funksjons nettbank. På samme måte som Jurrasic park prosjektet var dette kun en konsept app.",
+            "image": "/img/dnb.jpg",
             "video": "",
-            "tags": ["Java","Swift","Programming"]
-
+            "tags": ["Java","Swift","Programming"],
+            "demo": "",
+            "github": "https://github.com/nexiuhm/DNBconcept"
         },
 
         {
             "name": "Fotoalbum",
-            "description": "Retusjering av gamle bilder og design av fotoalbum til jubilant",
-            "image": "",
+            "description": "Retusjering av gamle bilder og design av fotoalbum til jubilant.",
+            "image": "/img/",
             "video": "",
-            "tags": ["Photoshop","InDesign","Design"]
+            "tags": ["Photoshop","InDesign","Design"],
+            "demo": "",
+            "github": null
 
         },
 
-        {
-            "name": "Jurrasic Park - Park Manager app",
-            "description": "For å bli mer kjent med Java. GUI programming med Java/Swift",
-            "image": "",
-            "video": "",
-            "tags": ["Java","Swift","Programming"]
-
-        },
+        
 
         {
             "name": "Yogafrisk - Profilering",
-            "description": "Laget visittkort, flyers osvosv brlalblablabl. SAsdas",
+            "description": "Laget visittkort, flyers og hjemmeside til Yoga-startup",
             "image": "",
             "video": "",
-            "tags": ["Wordpress","Photoshop","Design"]
+            "tags": ["Wordpress","Photoshop","Design"],
+            "demo": "",
+            "github": ""
+
 
         },
 
         {
-            "name": "Playstation 5",
-            "description": "haCKA ALLE ",
+            "name": "Playstation 5 kjøpe bot",
+            "description": "Kanskje et noe umoralsk prosjekt, men en venn av meg hadde veldig lyst på Playstation 5 og eg lovte å hjelpe han. Brukte en Javascript 'injector' Chrome extension og skrev et script tilpasset Elkjøp sin kjøpeprosess slik at man gikk direkte til handlekurven med ønsket produkt.",
             "image": "",
             "video": "",
-            "tags": ["Wordpress","Photoshop","Design"]
+            "tags": ["JavaScript","HTTP"],
+            "demo": "",
+            "github": ""
 
         },
 
         {
-            "name": "Duelist WORLD OF WARCRAFT",
-            "description": "2.1 XP resto SHM ",
+            "name": "Rekrutteringsvideo for gaming-team",
+            "description": "Et gaming-lag ønsket rekrutere flere spillere til neste sesong av World Of Warcraft. Videoen er lagd i Aremiere + After Affects, måtte også bruke et program for å styre kameraet fritt i spillet siden dette er vanligvis låst til avataren man spiller",
             "image": "",
-            "video": "",
-            "tags": ["Wordpress","Photoshop","Design"]
+            "video": "https://www.youtube.com/watch?v=BqTKfUKUu0U",
+            "tags": ["Premiere","Photoshop","After Effects","Design"],
+            "demo": "",
+            "github": ""
 
         },
 
         {
-            "name": "TooGoodToGo auto-buyer",
-            "description": "Reversed engineered the andriod .apk, to find the API/Http requests needed to buy food the instant it became available",
+            "name": "Musikkvideo - Xzwer - Norske Talenter",
+            "description": "Deltaker av Norske Talenter fra Florø. Kom til finalen!",
+            "image": "",
+            "video": "https://www.youtube.com/watch?v=6FnMX-hsVp8",
+            "tags": ["Premiere","Photoshop","Design"],
+            "demo": "",
+            "github": ""
+
+        },
+
+        {
+            "name": "TooGoodToGo auto-kjøp",
+            "description": "Programmet fungerer ikke lenger pga. API forandringer hos TooGoodToGo. Men brukte en kombinasjon av packet capture og 'reverse engineering' av Andriod appen til å finne API callsa nøvendig for å kjøpe mat hos min favorittplass så fort det var tilgjengelig (veldig fort utsolgt vanligvis)",
             "image": "",
             "video": "",
-            "tags": ["Wordpress","Photoshop","Design"]
+            "tags": ["Node.js","Java","Javascript"],
+            "demo": "",
+            "github": ""
 
         }
 
