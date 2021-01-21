@@ -64,9 +64,10 @@
         return elem.parentNode.removeChild(elem);
     }
 
-    function showVideoPlayer(link) {
+    function showVideoPlayer(e, link) {
 
 
+        e.preventDefault();
         const videoplayer = document.createElement("iframe");
         videoplayer.width = "1280";
         videoplayer.height = "960";
@@ -151,7 +152,7 @@
             const video = document.createElement("button");
             video.innerText = "Video";
             video.className = "project-menu-item project-menu-item-button";
-            video.onclick = () => { showVideoPlayer(projectdata.video) }
+            video.onclick = (e) => { showVideoPlayer(e,projectdata.video) }
             video.appendChild(link);
 
             
