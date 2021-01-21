@@ -25,6 +25,20 @@ button {
   font-size: inherit;
 }
 
+
+.project {
+  animation: bg-image-driveby 10s ease-in-out;
+  background-position-x: -900px;
+  background-blend-mode: overlay;
+}
+
+@keyframes bg-image-driveby {
+
+	100% {
+		
+		background-position-x: 0px;
+	}
+}
 body {
   padding-top: 125px;
   overflow: scroll;
