@@ -11,7 +11,7 @@ html, body {
   
 }
 
-.video_player {
+#video_player {
   position: absolute;
   margin: 500 auto;
 }

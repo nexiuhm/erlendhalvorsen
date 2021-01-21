@@ -66,24 +66,25 @@
 
     function showVideoPlayer(link) {
 
+        <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         const videoplayer = document.createElement("iframe");
         videoplayer.width = "1280";
         videoplayer.height = "960";
-        videoplayer.id = "video_player" + "?controls=0";
+        videoplayer.id = "video_player" + "&autoplay=1";
         videoplayer.setAttribute("frameborder", "0")
         videoplayer.setAttribute("allowfullscreen", "")
         videoplayer.setAttribute("allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
 
-        videoplayer.src = link + "autoplay=1";
+        videoplayer.src = link;
 
         document.body.style = "filter: blur(10px)"
-
+        videoplayer.style = "filter: none"
         document.body.appendChild(videoplayer);
 
         const el = document.body.addEventListener("onclick", (e) => {
 
-            document.removeElement(document.getElementById("video_player"));
+            removeElement(document.getElementById("video_player"));
             document.body.removeEventListener(el)
             document.body.style = "filter: none";
 
