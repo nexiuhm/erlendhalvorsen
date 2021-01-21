@@ -86,7 +86,7 @@
         const el = document.body.addEventListener("click", (e) => {
 
             removeElement(document.getElementById("video_player"));
-            document.body.removeEventListener(el)
+            document.body.removeEventListener("click",el);
             document.body.style = "filter: none";
 
         })
