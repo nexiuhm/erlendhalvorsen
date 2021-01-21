@@ -114,10 +114,11 @@ li {
   width: 380px;
   border: 1px solid #8a8389;
   border-radius: 12px;
-  animation: bgimagedriveby 10s ease-in-out;
+  animation: bgimagedriveby 30s ease-in-out;
   background-position-x: -900px;
   word-wrap: break-word;
 }
+
 
 .project:hover {
   background: #97759152;
