@@ -77,7 +77,7 @@
             "name": "Rekrutteringsvideo for gaming-team",
             "description": "Et gaming-lag ønsket rekrutere flere spillere til neste sesong av World Of Warcraft. Videoen er lagd i Aremiere + After Affects, måtte også bruke et program for å styre kameraet fritt i spillet siden dette er vanligvis låst til avataren man spiller",
             "image": "",
-            "video": "https://www.youtube.com/watch?v=BqTKfUKUu0U",
+            "video": "https://www.youtube.com/embed/BqTKfUKUu0U",
             "tags": ["Premiere","Photoshop","After Effects","Design"],
             "demo": "",
             "github": ""
@@ -88,7 +88,7 @@
             "name": "Musikkvideo - Xzwer - Norske Talenter",
             "description": "Deltaker av Norske Talenter fra Florø. Kom til finalen!",
             "image": "",
-            "video": "https://www.youtube.com/watch?v=6FnMX-hsVp8",
+            "video": "https://www.youtube.com/embed/6FnMX-hsVp8",
             "tags": ["Premiere","Photoshop","Design"],
             "demo": "",
             "github": ""
