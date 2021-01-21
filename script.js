@@ -87,13 +87,14 @@
         
 
         const el = document.body.addEventListener("click", (e) => {
-
+            /** 
             console.log("dbg: clicked body")
             if(e.target != document.getElementById("video_player")) {
                 removeElement(document.getElementById("video_player"));
                 document.body.removeEventListener("click",el);
                 document.body.style = "filter: none";
             }
+            */
 
         })
     }
