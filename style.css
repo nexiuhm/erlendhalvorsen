@@ -117,12 +117,15 @@ li {
   border-radius: 12px;
   animation: bgimagedriveby 45s ease-in-out;
   background-position-x: -900px;
+  background-position-y: 1000px;
   word-wrap: break-word;
 }
 
 
 .project:hover {
   background: #97759152;
+  animation: bgimagedriveby 45s ease-in-out;
+  background-position-y: 0;
 }
 
 @keyframes NAME-YOUR-ANIMATION {
