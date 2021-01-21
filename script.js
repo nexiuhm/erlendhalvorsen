@@ -61,7 +61,8 @@
     }
 
     function removeElement(elem) {
-        return elem.parentNode.removeChild(elem);
+        
+       return elem ? elem.parentNode.removeChild(elem) : null;
     }
 
     function showVideoPlayer(e, link) {
