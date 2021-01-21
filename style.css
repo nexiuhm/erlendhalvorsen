@@ -16,7 +16,13 @@ body {
   overflow: scroll;
 }
 
+a {
+  text-decoration: none;
+  color: #cd98fa;
+  font-weight: bold;
+  text-transform: capitalize;
 
+}
 /* Project container */
 
 .meny {
@@ -27,6 +33,18 @@ body {
 .meny ul {
   margin: 0 auto;
 
+
+}
+
+.project-menu {
+  padding: 10px;
+
+}
+
+.project-menu-item {
+
+  padding: 5px 10px;
+  border: 1px solid #cd98fa;
 
 }
 

@@ -98,6 +98,7 @@
             link.style = "display:block";
             link.innerText = "Github"
             const github = document.createElement("li");
+            github.className = "project-menu-item";
             github.appendChild(link);
             menu.appendChild(github);
 
@@ -113,6 +114,7 @@
             link.style = "display:block";
             link.innerText = "Video"
             const video = document.createElement("li");
+            video.className = "project-menu-item";
             video.appendChild(link);
             menu.appendChild(video);
         }
