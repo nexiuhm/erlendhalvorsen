@@ -78,7 +78,7 @@
         videoplayer.setAttribute("allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture")
 
         videoplayer.src = link + "&autoplay=1";
-        videoplayer.style = "filter: blur(0);"
+        videoplayer.style = "filter: blur(0);" // Have this never blur by default
         document.body.appendChild(videoplayer);
 
         /* Background blur when video is active, will do this in a better way later ( never XDDD) trhough css classes */
