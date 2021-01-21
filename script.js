@@ -91,16 +91,20 @@
         window.setTimeout(()=> {
 
 
-            const el = document.body.addEventListener("click", function listener(e) {
+            const el = document.body.addEventListener("click", callback)
+
+            function callback(e,el){
+                
 
                 
                 removeElement(document.getElementById("video_player_wrapper"));
-                document.body.removeEventListener("click",listener);
+                document.body.removeEventListener("click",el);
                 document.querySelector(".page-wrapper").style = "filter: blur(0px)"
                 
                 
     
-            })
+            
+            }
 
 
 
