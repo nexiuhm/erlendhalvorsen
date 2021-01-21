@@ -117,6 +117,7 @@ li {
   border-radius: 12px;
   animation: bgimagedriveby 45s ease-in-out;
   background-position-x: -900px;
+  background-repeat:no-repeat ;
   background-position-y: 1000px;
   word-wrap: break-word;
 }
