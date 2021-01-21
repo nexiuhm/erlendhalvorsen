@@ -76,6 +76,8 @@
 
         document.body.style = "filter: blur(10px)"
 
+        document.body.appendChild(videoplayer);
+
         const el = document.body.addEventListener("onclick", (e) => {
 
             document.removeElement(document.getElementById("video_player"));
