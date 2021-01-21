@@ -43,10 +43,11 @@
 
 
             const project = createProjectElement();
-            project.querySelector("project-title").innerText = element.name;
-            project.querySelector("project-description").innerText = element.description;
-            project.querySelector("project-tags").innerText = "Tags: " + element.tags;
-            project.querySelector("project-github").innerText = "Github: " + element.github;
+   
+            project.querySelector(".project-title").innerText = element.name;
+            project.querySelector(".project-description").innerText = element.description;
+            project.querySelector(".project-tags").innerText = "Tags: " + element.tags;
+            project.querySelector(".project-github").innerText = "Github: " + element.github;
             projects_container.appendChild(project);
             
         });
@@ -87,6 +88,7 @@
         container.appendChild(description);
         container.appendChild(tags);
         container.appendChild(github);
+        container.appendChild(video);
 
         return container;
     }
