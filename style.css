@@ -13,6 +13,19 @@ html, body {
 
 
 /* Project container */
+
+.meny {
+  margin: 0 auto;
+}
+
+.meny ul {
+  margin: 0 auto;
+
+}
+
+li {
+  display: inline-block;
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
