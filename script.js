@@ -86,7 +86,7 @@
         const menu = document.createElement("ul");
         menu.className = "project-menu";
 
-        /* Variable elements */
+        /* Variable menu elements */
 
 
         if(projectdata.github) {
