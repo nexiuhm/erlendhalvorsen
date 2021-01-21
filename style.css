@@ -13,7 +13,7 @@ html, body {
 
 #video_player {
   position: absolute;
-  margin: 500 auto;
+  margin-top:400px;
 }
 
 body {
