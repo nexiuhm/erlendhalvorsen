@@ -65,6 +65,7 @@
         /* Wrapper */
         const container = document.createElement("div");
         container.className = "project";
+        container.classList.add("project","shape");
         /* Title */
         const header = document.createElement("h2");
         header.className = "project-title";

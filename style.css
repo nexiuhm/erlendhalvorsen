@@ -145,6 +145,8 @@ li {
   stroke-dasharray: 40 330;
   stroke-dashoffset: -1474;
   stroke-width: 2px;
+  width: inherit;
+  height: inherit;
   fill:transparent;
   stroke: #cd98fa;
   
