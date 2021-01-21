@@ -97,7 +97,7 @@
                 
 
                 
-                removeElement(document.getElementById("video_player_wrapper"));
+                removeElement(document.querySelector(".video_player_wrapper"));
                 document.body.removeEventListener("click",callback);
                 document.querySelector(".page-wrapper").style = "filter: blur(0px)"
                 
