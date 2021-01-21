@@ -67,7 +67,7 @@
 
     function showVideoPlayer(e, link) {
 
-
+        document.body.style = "filter: blur(10px)"
        
         const videoplayer = document.createElement("iframe");
         videoplayer.width = "1280";
@@ -82,7 +82,7 @@
         document.body.appendChild(videoplayer);
 
         /* Background blur when video is active, will do this in a better way later ( never XDDD) trhough css classes */
-        document.body.style = "filter: blur(10px)"
+        
         
         
 
