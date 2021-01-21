@@ -17,6 +17,14 @@ html, body {
   left: 25%;
 }
 
+button {
+  background: transparent;
+  display: inline;
+  font-family: inherit;
+  color: #cd98fa;
+  font-size: inherit;
+}
+
 body {
   padding-top: 125px;
   overflow: scroll;
