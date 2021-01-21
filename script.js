@@ -118,7 +118,8 @@
         /* Wrapper */
         const container = document.createElement("div");
         container.classList.add("project");
-        container.style.background = projectdata.image;
+        container.style = "background: url(projectdata.image)";
+        console.log(contain)
         /* Border svg*/
         //const border = document.createElementNS("http://www.w3.org/2000/svg", "svg");
 
