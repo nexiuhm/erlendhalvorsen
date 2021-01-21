@@ -67,7 +67,7 @@
 
     function showVideoPlayer(e, link) {
 
-        document.body.style = "filter: blur(10px)"
+        //document.body.style = "filter: blur(10px)"
         const player_container = document.createElement("div");
         player_container.className = "video_player_wrapper";
         const videoplayer = document.createElement("iframe");
