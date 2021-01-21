@@ -27,12 +27,11 @@ button {
 
 
 .project {
-  animation: bg-image-driveby 10s ease-in-out;
-  background-position-x: -900px;
-  background-blend-mode: overlay;
+  
+
 }
 
-@keyframes bg-image-driveby {
+@keyframes bgimagedriveby {
 
 	100% {
 		
@@ -113,6 +112,8 @@ li {
   width: 380px;
   border: 1px solid #8a8389;
   border-radius: 12px;
+  animation: bgimagedriveby 10s ease-in-out;
+  background-position-x: -900px;
   word-wrap: break-word;
 }
 
