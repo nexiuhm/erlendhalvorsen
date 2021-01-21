@@ -93,7 +93,7 @@
 
             const el = document.body.addEventListener("click", (e) => {
 
-                co
+                
                 removeElement(document.getElementById("video_player"));
                 document.body.removeEventListener("click",el);
                 document.querySelector(".page-wrapper").style = "filter: blur(0px)"
