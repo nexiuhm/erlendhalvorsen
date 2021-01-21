@@ -68,7 +68,7 @@
     function showVideoPlayer(e, link) {
 
 
-        e.preventDefault();
+       
         const videoplayer = document.createElement("iframe");
         videoplayer.width = "1280";
         videoplayer.height = "960";
@@ -89,9 +89,11 @@
         const el = document.body.addEventListener("click", (e) => {
 
             console.log("dbg: clicked body")
-            removeElement(document.getElementById("video_player"));
-            document.body.removeEventListener("click",el);
-            document.body.style = "filter: none";
+            if(e.target != document.getElementById("video_player")) {
+                removeElement(document.getElementById("video_player"));
+                document.body.removeEventListener("click",el);
+                document.body.style = "filter: none";
+            }
 
         })
     }
