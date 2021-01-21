@@ -139,16 +139,15 @@
         if(projectdata.video) {
 
 
-            const link = document.createElement("a");
-            link.href = projectdata.video;
-            link.target = "_blank";
-            link.style = "display:block";
-            link.innerText = "Video"
+            const link = document.createElement("li");
+            
             const video = document.createElement("button");
+            video.innerText = "Video";
             video.className = "project-menu-item project-menu-item-button";
+            video.onclick = () => { showVideoPlayer(projectdata.video) }
             video.appendChild(link);
 
-            video.onclick = () => showVideoPlayer(projectdata.video)
+            
             menu.appendChild(video);
         }
 
