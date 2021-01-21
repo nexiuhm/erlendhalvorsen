@@ -11,6 +11,11 @@ html, body {
   
 }
 
+.video_player {
+  position: absolute;
+  margin: 500 auto;
+}
+
 body {
   padding-top: 125px;
   overflow: scroll;

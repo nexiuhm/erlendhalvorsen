@@ -66,12 +66,16 @@
 
     function showVideoPlayer(link) {
 
+
         const videoplayer = document.createElement("iframe");
         videoplayer.width = "1280";
         videoplayer.height = "960";
-        videoplayer.id = "video_player";
+        videoplayer.id = "video_player"
+        videoplayer.src = link;
         videoplayer.setAttribute("frameborder", "0")
         videoplayer.setAttribute("allowfullscreen", "")
+        videoplayer.setAttribute("accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+
         videoplayer.src = link + "autoplay=1";
 
         document.body.style = "filter: blur(10px)"
