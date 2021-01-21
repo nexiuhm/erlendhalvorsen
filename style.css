@@ -114,10 +114,11 @@ li {
   /* margin-top: 115px; */
   width: 380px;
   border: 1px solid #8a8389;
+  background: #97759132;
   border-radius: 12px;
   animation: bgimagedriveby 45s ease-in-out;
   background-position-x: -900px;
-  background-repeat:no-repeat ;
+  background-repeat:no-repeat;
   background-position-y: 1000px;
   word-wrap: break-word;
 }
