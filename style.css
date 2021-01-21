@@ -32,7 +32,9 @@ button {
 }
 
 @keyframes bgimagedriveby {
-
+  0%{
+    background-position-x: -900px;
+  }
 	100% {
 		
 		background-position-x: 0px;
