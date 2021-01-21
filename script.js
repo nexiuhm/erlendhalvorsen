@@ -77,6 +77,8 @@
 
         videoplayer.src = link + "&autoplay=1";
 
+
+        /* Background blur when video is active, will do this in a better way later ( never XDDD) trhough css classes */
         document.body.style = "filter: blur(10px)"
         videoplayer.style = "filter: none"
         document.body.appendChild(videoplayer);
