@@ -43,9 +43,10 @@
 
 
             const project = createProjectElement();
-            project.querySelector("h2").innerText = element.name;
-            project.querySelector("p").innerText = element.description;
-            project.querySelector("div").innerText = "Tags: " + element.tags;
+            project.querySelector("project-title").innerText = element.name;
+            project.querySelector("project-description").innerText = element.description;
+            project.querySelector("project-tags").innerText = "Tags: " + element.tags;
+            project.querySelector("project-github").innerText = "Github: " + element.github;
             projects_container.appendChild(project);
             
         });
@@ -63,7 +64,7 @@
         renderProjects(filteredProjectArray);
     }
 
-    /* Creates the HTML structure for a single prosject "card" */
+    /* Creates the HTML structure for a single project "card" */
     function createProjectElement() {
 
         const container = document.createElement("div");
@@ -71,15 +72,21 @@
         const header = document.createElement("h2");
         header.className = "project-title";
         const description = document.createElement("p");
-        description.className
+        description.className = "project-description"
         const img = document.createElement("img");
-        const tags = document.createElement("span");
-        const github = document.createElement("span");
+        img.className = "project-image";
+        const tags = document.createElement("div");
+        tags.className = "project-tags";
+        const github = document.createElement("div");
+        github.className = "project-github";
+        const video = document.createElement("div");
+        video.className = "project-video";
 
         container.appendChild(header);
         container.appendChild(img);
         container.appendChild(description);
         container.appendChild(tags);
+        container.appendChild(github);
 
         return container;
     }
