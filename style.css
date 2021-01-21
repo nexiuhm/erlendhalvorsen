@@ -48,6 +48,13 @@ a {
 
 }
 
+.project-menu-item:hover {
+
+  padding: 5px 16px;
+
+
+}
+
 li {
   display: inline-block;
   padding: 8px;
