@@ -67,7 +67,7 @@
 
     function showVideoPlayer(e, link) {
 
-        //document.body.style = "filter: blur(10px)"
+        
         const player_container = document.createElement("div");
         player_container.className = "video_player_wrapper";
         const videoplayer = document.createElement("iframe");
@@ -82,22 +82,21 @@
         player_container.appendChild(videoplayer);
         document.body.appendChild(player_container);
 
-        /* Background blur when video is active, will do this in a better way later ( never XDDD) trhough css classes */
+
+
+        /* Background content blur when video is active, will do this in a better way later ( never XDDD) trhough css classes */
         
-        
+        document.querySelector(".page-wrapper").style = "filter: blur(10px)"
         
 
         const el = document.body.addEventListener("click", (e) => {
 
-            console.log(e.target);
-            /** 
-            console.log("dbg: clicked body")
-            if(e.target != document.getElementById("video_player")) {
-                removeElement(document.getElementById("video_player"));
-                document.body.removeEventListener("click",el);
-                document.body.style = "filter: none";
-            }
-            */
+           
+            removeElement(document.getElementById("video_player"));
+            document.body.removeEventListener("click",el);
+            document.querySelector(".page-wrapper").style = "filter: blur(0px)"
+            
+            
 
         })
     }
