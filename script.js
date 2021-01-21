@@ -60,11 +60,40 @@
         renderProjects(filteredProjectArray);
     }
 
+    function removeElement(elem) {
+        return elem.parentNode.removeChild(elem);
+    }
+
+    function showVideoPlayer(link) {
+
+        const videoplayer = document.createElement("iframe");
+        videoplayer.width = "1280";
+        videoplayer.height = "960";
+        videoplayer.id = "video_player";
+        videoplayer.setAttribute("frameborder", "0")
+        videoplayer.setAttribute("allowfullscreen", "")
+        videoplayer.src = link + "autoplay=1";
+
+        document.body.style = "filter: blur(10px)"
+
+        const el = document.body.addEventListener("onclick", (e) => {
+
+            document.removeElement(document.getElementById("video_player"));
+            document.body.removeEventListener(el)
+            document.body.style = "filter: none";
+
+        })
+    }
+
+    
     /* Creates the HTML structure for a single project "card" */
     function createProjectElement(projectdata) {
         /* Wrapper */
         const container = document.createElement("div");
         container.classList.add("project");
+        /* Border svg*/
+        //const border = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+
         /* Title */
         const header = document.createElement("h2");
         header.className = "project-title";
@@ -81,6 +110,8 @@
         const tags = document.createElement("div");
         tags.className = "project-tags";
         tags.innerText = projectdata.tags;
+
+        
 
         /* Menu */
         const menu = document.createElement("ul");
@@ -113,9 +144,11 @@
             link.target = "_blank";
             link.style = "display:block";
             link.innerText = "Video"
-            const video = document.createElement("li");
-            video.className = "project-menu-item";
+            const video = document.createElement("button");
+            video.className = "project-menu-item project-menu-item-button";
             video.appendChild(link);
+
+            video.onClick(showVideoPlayer(projectdata.video))
             menu.appendChild(video);
         }
 
