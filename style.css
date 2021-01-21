@@ -11,9 +11,9 @@ html, body {
   
 }
 
-#video_player {
+.video_player_wrapper {
   position: absolute;
-  margin-top:400px;
+  margin: 0;
 }
 
 body {
