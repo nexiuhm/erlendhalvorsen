@@ -66,7 +66,6 @@
 
     function showVideoPlayer(link) {
 
-        <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         const videoplayer = document.createElement("iframe");
         videoplayer.width = "1280";
