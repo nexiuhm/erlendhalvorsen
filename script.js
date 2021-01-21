@@ -148,7 +148,7 @@
             video.className = "project-menu-item project-menu-item-button";
             video.appendChild(link);
 
-            video.onClick(showVideoPlayer(projectdata.video))
+            video.onclick = () => showVideoPlayer(projectdata.video)
             menu.appendChild(video);
         }
 
