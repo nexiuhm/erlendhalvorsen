@@ -74,7 +74,7 @@
         videoplayer.setAttribute("allowfullscreen", "")
         videoplayer.src = link + "autoplay=1";
 
-        //document.body.style = "filter: blur(10px)"
+        document.body.style = "filter: blur(10px)"
 
         const el = document.body.addEventListener("onclick", (e) => {
 
