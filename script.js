@@ -86,7 +86,7 @@
 
         /* Background content blur when video is active, will do this in a better way later ( never XDDD) trhough css classes */
         
-        document.querySelector(".page_wrapper").style = "filter: blur(10px)"
+        document.querySelector(".page-wrapper").style = "filter: blur(10px)"
         
         window.setTimeout(()=> {
 
@@ -94,7 +94,7 @@
             const el = document.body.addEventListener("click", (e) => {
 
                 
-                removeElement(document.getElementById("video_player"));
+                removeElement(document.getElementById("video_player_wrapper"));
                 document.body.removeEventListener("click",el);
                 document.querySelector(".page-wrapper").style = "filter: blur(0px)"
                 
