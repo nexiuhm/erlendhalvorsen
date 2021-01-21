@@ -39,15 +39,10 @@
 
         
 
-        projects.forEach(element => {
+        projects.forEach(projectdata => {
 
 
-            const project = createProjectElement();
-   
-            project.querySelector(".project-title").innerText = element.name;
-            project.querySelector(".project-description").innerText = element.description;
-            project.querySelector(".project-tags").innerText = "Tags: " + element.tags;
-            project.querySelector(".project-github").innerText = "Github: " + element.github;
+            const project = createProjectElement(projectdata);
             projects_container.appendChild(project);
             
         });
@@ -66,29 +61,68 @@
     }
 
     /* Creates the HTML structure for a single project "card" */
-    function createProjectElement() {
-
+    function createProjectElement(projectdata) {
+        /* Wrapper */
         const container = document.createElement("div");
         container.className = "project";
+        /* Title */
         const header = document.createElement("h2");
         header.className = "project-title";
+        header.innerText = projectdata.name;
+        /* Descripton */
         const description = document.createElement("p");
         description.className = "project-description"
+        description.innerText = projectdata.description;
+        /* Image */
         const img = document.createElement("img");
         img.className = "project-image";
+        /* TODO IMG */
+        /* Tags */
         const tags = document.createElement("div");
         tags.className = "project-tags";
-        const github = document.createElement("div");
-        github.className = "project-github";
-        const video = document.createElement("div");
-        video.className = "project-video";
+        tags.innerText = projectdata.tags;
+
+        /* Menu */
+        const menu = document.createElement("ul");
+        menu.className = "project-menu";
+
+        /* Variable elements */
+
+
+        if(projectdata.github) {
+
+
+            const link = document.createElement("a");
+            link.href = projectdata.github;
+            link.target = "_blank";
+            link.style = "display:block";
+            link.innerText = "Github"
+            const github = document.createElement("li");
+            github.appendChild(link);
+            menu.appendChild(github);
+
+
+        }
+
+        if(projectdata.video) {
+
+
+            const link = document.createElement("a");
+            link.href = projectdata.video;
+            link.target = "_blank";
+            link.style = "display:block";
+            link.innerText = "Video"
+            const video = document.createElement("li");
+            video.appendChild(link);
+            menu.appendChild(video);
+        }
+
 
         container.appendChild(header);
         container.appendChild(img);
         container.appendChild(description);
         container.appendChild(tags);
-        container.appendChild(github);
-        container.appendChild(video);
+        container.appendChild(menu);
 
         return container;
     }
