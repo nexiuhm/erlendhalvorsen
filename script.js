@@ -74,7 +74,7 @@
         videoplayer.src = link;
         videoplayer.setAttribute("frameborder", "0")
         videoplayer.setAttribute("allowfullscreen", "")
-        videoplayer.setAttribute("accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture");
+        videoplayer.setAttribute("accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture","");
 
         videoplayer.src = link + "autoplay=1";
 
