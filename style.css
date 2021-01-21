@@ -15,6 +15,7 @@ html, body {
 /* Project container */
 
 .meny {
+  top: 50px;
   margin: 0 auto;
 }
 
