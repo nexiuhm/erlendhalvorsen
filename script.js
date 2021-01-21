@@ -64,7 +64,7 @@
     function createProjectElement(projectdata) {
         /* Wrapper */
         const container = document.createElement("div");
-        container.classList.add("shape","project");
+        container.classList.add("project");
         /* Title */
         const header = document.createElement("h2");
         header.className = "project-title";
