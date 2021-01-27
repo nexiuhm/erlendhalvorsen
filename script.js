@@ -113,7 +113,7 @@
     }
 
     
-    /* Creates the HTML structure for a single project "card" */
+    /* Creates the HTML structure for a single project "card", if github /video links exists in the data it creates the buttons too */
     function createProjectElement(projectdata) {
         /* Wrapper */
         const container = document.createElement("div");
